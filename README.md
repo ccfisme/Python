@@ -1,5 +1,5 @@
   
-  ![截屏2021-09-16 21 13 04](https://user-images.githubusercontent.com/74129445/133618489-c29adefe-9447-49df-b51e-2b6cab8ce102.png)</br></br>map 
+  ![截屏2021-09-16 21 13 04](https://user-images.githubusercontent.com/74129445/133618489-c29adefe-9447-49df-b51e-2b6cab8ce102.png)</br></br>
 在用python时发现不能对a，b两个数实现一次输入多组数据，要用到map，而想要map原理又要先明白迭代器（），这是第二次碰到了，之前忘记是什么问题了，好像是c++碰到的，总之迭代器似乎只能用一次，而为什么会用到迭代器？以及迭代器对于这个语言的优势？这些我一点也不懂，所以对迭代器进行了底层原理的学习</br></br>
   参考https://blog.csdn.net/weixin_38736371/article/details/80873865</br></br>
 
