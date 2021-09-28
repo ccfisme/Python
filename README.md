@@ -34,4 +34,5 @@ https://blog.csdn.net/swety_gxy/article/details/83063499</br>
 
 
 ![截屏2021-09-28 09 20 12](https://user-images.githubusercontent.com/74129445/135007258-74fc5245-0e73-44e2-8b49-cd42f8f8d30c.png)</br>
+所以，知道这个原理以后，就可以自己理解之前的错误了。
 
