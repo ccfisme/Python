@@ -49,4 +49,12 @@ python代码: a = 11</br>
 
 从这个函数可以看出，site确实是一个指针，访问这个量里的变量的地址需要用**</br>
 site = {"name": "ccf", "url": "123"}</br>
-print("名字{name}, 地址 {url}".format(**site))</br>
+print("名字{name}, 地址 {url}".format(**site))</br></br></br>
+
+现在发现对之前的对象的理解有误区，即对象代表的不是指针常量，而是一个指针，即</br>
+a = 1;</br>
+等价于</br>
+int *a；</br>
+a = malloc(sizeof(int 1))</br>
+参考：https://yuyang0.github.io/notes/python-source-code.html</br>
+下图为解释![截屏2021-09-28 09 20 12](https://user-images.githubusercontent.com/74129445/135006921-948934a5-198b-4785-9852-cf915ff83f55.png)</br>
