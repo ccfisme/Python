@@ -57,4 +57,4 @@ a = 1;</br>
 int *a；</br>
 a = malloc(sizeof(int 1))</br>
 参考：https://yuyang0.github.io/notes/python-source-code.html</br>
-下图为int *a的解释</br>![截屏2021-09-28 09 20 12](https://user-images.githubusercontent.com/74129445/135006921-948934a5-198b-4785-9852-cf915ff83f55.png)</br>
+下图为int *a的解释，python的a是个结构体指针</br>![截屏2021-09-28 09 20 12](https://user-images.githubusercontent.com/74129445/135006921-948934a5-198b-4785-9852-cf915ff83f55.png)</br>
