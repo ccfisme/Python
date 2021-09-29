@@ -51,11 +51,18 @@ python代码: a = 11</br>
 site = {"name": "ccf", "url": "123"}</br>
 print("名字{name}, 地址 {url}".format(**site))</br></br></br>
 
-现在发现对之前的对象的理解有误区，即对象代表的不是指针常量，而是一个指针，即</br>
-a = 1;</br>
-等价于</br>
-int *a；(也就是说，python的a是个结构体指针，自己包含了数据的类型和地址)</br>
-a = (int *)malloc(sizeof(int))</br>
+现在发现对之前的对象的理解有误区，即对象代表的不是指针常量，也不是指针</br>
+
 参考：https://yuyang0.github.io/notes/python-source-code.html</br>
-下图为int *a的解释，python的a是个结构体指针，包含了数据的类型及指地址</br>![截屏2021-09-29 16 24 31](https://user-images.githubusercontent.com/74129445/135231350-13b6ab5f-143e-4ba7-9747-ed0364e2f95b.png)
+下图为a的解释
+</br>![截屏2021-09-29 16 24 31](https://user-images.githubusercontent.com/74129445/135231350-13b6ab5f-143e-4ba7-9747-ed0364e2f95b.png)
+python的a是个结构体，包含了两部分，一个是对象的引用的技术，一个是对象的类型和地址，也就是</br>
+a = 1</br></br>
+//对象引用计数</br>
+int x = 0;</br>
+//定义数据的类型和地址</br>
+auto *a = 一个地址</br>
+之所以不写malloc来代替“一个地址”的位置，是因为并不一定是malloc分配地址</br>
+详见：https://blog.csdn.net/weixin_36019798/article/details/114400801</br>
+
 
