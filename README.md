@@ -54,7 +54,8 @@ print("名字{name}, 地址 {url}".format(**site))</br></br></br>
 现在发现对之前的对象的理解有误区，即对象代表的不是指针常量，而是一个指针，即</br>
 a = 1;</br>
 等价于</br>
-int *a；</br>
+int *a；(也就是说，python的a是个结构体指针，自己包含了数据的类型和地址)</br>
 a = (int *)malloc(sizeof(int))</br>
 参考：https://yuyang0.github.io/notes/python-source-code.html</br>
-下图为int *a的解释，python的a是个结构体指针</br>![截屏2021-09-28 09 20 12](https://user-images.githubusercontent.com/74129445/135006921-948934a5-198b-4785-9852-cf915ff83f55.png)</br>
+下图为int *a的解释，python的a是个结构体指针，包含了数据的类型及指地址</br>![截屏2021-09-29 16 24 31](https://user-images.githubusercontent.com/74129445/135231350-13b6ab5f-143e-4ba7-9747-ed0364e2f95b.png)
+
