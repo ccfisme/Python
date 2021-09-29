@@ -55,8 +55,8 @@ print("名字{name}, 地址 {url}".format(**site))</br></br></br>
 
 参考：https://yuyang0.github.io/notes/python-source-code.html</br>
 下图为a的解释
-</br>![截屏2021-09-29 16 24 31](https://user-images.githubusercontent.com/74129445/135231350-13b6ab5f-143e-4ba7-9747-ed0364e2f95b.png)
-python的a是个结构体，包含了两部分，一个是对象的引用的技术，一个是对象的类型和地址，也就是</br>
+</br>![截屏2021-09-29 16 24 31](https://user-images.githubusercontent.com/74129445/135231350-13b6ab5f-143e-4ba7-9747-ed0364e2f95b.png)</br>
+python的a是个结构体，包含了两部分，一个是对象的引用的计数，一个是对象的类型和地址，也就是</br>
 a = 1</br></br>
 //对象引用计数</br>
 int x = 0;</br>
