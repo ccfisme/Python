@@ -4,3 +4,4 @@
 ![FireShot Capture 031 - 在线翻译_有道 - fanyi youdao com](https://user-images.githubusercontent.com/74129445/136764389-02c379ed-83ce-4bab-9efa-db1d7e920041.png)</br>
 
 不过说实话，由于没遇见过所有，因此这一步只能说是了解，那么try是如何捕获的异常呢？</br>
+见：https://www.cnblogs.com/traditional/p/11869246.html的11.4.2</br>
