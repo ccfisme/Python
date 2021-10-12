@@ -1,4 +1,4 @@
-@[toc]
+
 python中的一切都是对象。Python 将对象存储在堆内存中，并将对象的引用存储在堆栈中。变量、函数存储在堆栈中，对象存储在堆中。</br>
 
 注意，堆中的对象永远存在，直到运行完程序操作系清除，或者做一个垃圾清除机制</br>
@@ -56,7 +56,7 @@ print("名字{name}, 地址 {url}".format(**site))</br></br></br>
 
 参考：https://yuyang0.github.io/notes/python-source-code.html</br>
 下图为a的解释
-</br>![截屏2021-09-29 16 24 31](https://user-images.githubusercontent.com/74129445/135231350-13b6ab5f-143e-4ba7-9747-ed0364e2f95b.png)</br>
+</br>![截屏2021-09-29 16 24 31]*[nnnnnnnnnnn](https://user-images.githubusercontent.com/74129445/135231350-13b6ab5f-143e-4ba7-9747-ed0364e2f95b.png)</br>
 python的a是个结构体，包含了两部分，一个是对象的引用的计数，一个是对象的类型和地址，也就是</br>
 a = 1</br></br>
 //对象引用计数</br>
