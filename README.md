@@ -48,7 +48,7 @@ python代码: a = 11</br>
 解释python变量为指针常量的最佳例子就是format函数</br>
 
 
-从这个函数可以看出，site确实是一个指针，访问这个量里的变量的地址需要用**</br>
+从这个函数可以看出，site确实是一个指针，访问这个量里的变量的地址需要用‘**’</br>
 site = {"name": "ccf", "url": "123"}</br>
 print("名字{name}, 地址 {url}".format(**site))</br></br></br>
 ---
