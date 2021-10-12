@@ -53,7 +53,7 @@ site = {"name": "ccf", "url": "123"}</br>
 print("名字{name}, 地址 {url}".format(**site))</br></br></br>
 ---
 ---
-
+#更正
 现在发现对之前的对象的理解有误区，即对象代表的不是指针常量，也不是指针</br>
 
 参考：https://yuyang0.github.io/notes/python-source-code.html</br>
@@ -68,6 +68,3 @@ auto *a = 一个地址</br>
 之所以不写malloc来代替“一个地址”的位置，是因为并不一定是malloc分配地址</br>
 详见：https://blog.csdn.net/weixin_36019798/article/details/114400801</br>
 
-```
-dafeef
-```
