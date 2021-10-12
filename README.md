@@ -68,6 +68,6 @@ auto *a = 一个地址</br>
 之所以不写malloc来代替“一个地址”的位置，是因为并不一定是malloc分配地址</br>
 详见：https://blog.csdn.net/weixin_36019798/article/details/114400801</br>
 
-‘’‘
+```
 dafeef
-’‘’
+```
