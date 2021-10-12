@@ -47,13 +47,14 @@ python代码: a = 11</br>
 
 解释python变量为指针常量的最佳例子就是format函数</br>
 
-
 从这个函数可以看出，site确实是一个指针，访问这个量里的变量的地址需要用‘**’</br>
-site = {"name": "ccf", "url": "123"}</br>
-print("名字{name}, 地址 {url}".format(**site))</br></br></br>
+```
+site = {"name": "ccf", "url": "123"}
+print("名字{name}, 地址 {url}".format(**site))
+```
 ---
 ---
-#更正
+# 更正
 现在发现对之前的对象的理解有误区，即对象代表的不是指针常量，也不是指针</br>
 
 参考：https://yuyang0.github.io/notes/python-source-code.html</br>
