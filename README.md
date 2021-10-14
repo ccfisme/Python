@@ -37,10 +37,10 @@ while True:
 
 ## 注意！！！一定注意，写except：break时，一定注意，try语句一定要在while语句之内写
 
-‘’‘
+```
 while True:
     try:
         print("{}".format(sum(map(int, input().split()))))
     except:
         break
-’‘’
+```
