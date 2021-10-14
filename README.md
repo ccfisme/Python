@@ -32,3 +32,15 @@ while True:
 后来发现只有在循环时才能够使用break，不然会报错</br>
 ![截屏2021-10-14 08 22 43](https://user-images.githubusercontent.com/74129445/137230294-b9db5a1e-eba6-4618-8213-cd5b86d2c06e.png)</br>
 此译为非循环不可使用break
+
+---
+
+## 注意！！！一定注意，写except：break时，一定注意，try语句一定要在while语句之内写
+
+‘’‘
+while True:
+    try:
+        print("{}".format(sum(map(int, input().split()))))
+    except:
+        break
+’‘’
