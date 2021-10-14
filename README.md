@@ -31,9 +31,16 @@ sum的使用语法 sum(iterable[, start]) iterable -- 可迭代对象,如:列表
 ```
 故我想的是把map化成list，然后用个sum函数</br>
 ```
-a = list(map(int, input().split()))
-b = sum(a)
-print(b - a[0])
+while True:
+    try:
+        a = list(map(int, input().split()))
+        if (a[0] == 0):
+            break
+        else:
+            b = sum(a)
+            print(b - a[0])
+    except:
+        break
 ```
 
 可我又想实现一下sum函数，故想写个for循环，那么怎么实现map内部数字的累加呢？先求出列表，再找到a[0],知道累加次数，然后累加全部再减a[0]....</br>
@@ -41,9 +48,17 @@ print(b - a[0])
 太麻烦了，后来经过查找发现原来for可以用in直接遍历列表，于是就写出了实现sum的代码</br>
 
 ```
-a = list(map(int, input().split()))
-b = 0
-for i in a:
-    b += i
-print(b - a[0])
+while True:
+    try:
+        a = list(map(int, input().split()))
+        if (a[0] == 0):
+            break
+        else:
+            b = 0
+            for i in a:
+            b += i
+            print(b - a[0])
+    except:
+        break
+
 ```
