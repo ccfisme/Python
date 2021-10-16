@@ -117,7 +117,9 @@ step值必须大于等于1（若setp为0，Python解释会显式的抛出ValueEr
 
 ## 用strip()方法实现首尾切相同序列
 
-![截屏2021-10-16 22 44 16](https://user-images.githubusercontent.com/74129445/137591762-46c3e285-48e6-4a0d-8348-61a856e37b90.png)
+不管是字符串的左侧还是右侧，碰到第一个非目的字符（即在strip内的字符串中的一个）就终止搜索。</br>
+
+参考源代码：https://blog.csdn.net/wlyfls/article/details/24645779
 
 
 
