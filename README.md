@@ -59,4 +59,9 @@ print(c)
 '''
 ```
 
+#### 占位和对其方式：
+
+![截屏2021-10-16 22 30 39](https://user-images.githubusercontent.com/74129445/137591396-6653d944-dd15-4bb7-9311-f789b3757c08.png)
+
+
 
