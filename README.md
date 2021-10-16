@@ -63,5 +63,7 @@ print(c)
 
 ![截屏2021-10-16 22 30 39](https://user-images.githubusercontent.com/74129445/137591396-6653d944-dd15-4bb7-9311-f789b3757c08.png)
 
+空地儿补0:</br>
 
+![截屏2021-10-16 22 36 47](https://user-images.githubusercontent.com/74129445/137591565-04726754-ead5-4767-9569-b48a7c0a029c.png)
 
