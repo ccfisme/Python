@@ -67,3 +67,6 @@ print(c)
 
 ![截屏2021-10-16 22 36 47](https://user-images.githubusercontent.com/74129445/137591565-04726754-ead5-4767-9569-b48a7c0a029c.png)
 
+####  函数、字典、列表的输出方式
+
+![截屏2021-10-16 22 39 36](https://user-images.githubusercontent.com/74129445/137591655-b1a3b0a3-1118-4928-b5bf-5f8bd50c4323.png)
