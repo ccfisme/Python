@@ -2,7 +2,7 @@
 
 https://docs.python.org/zh-cn/3/c-api/tuple.html</br>
 
-## 对基本基本元素源码的一些解释：
+## 对基本基本元素源码的一些解释（最管用）：
 
 https://flaggo.github.io/python3-source-code-analysis/objects/list-object/</br>
 
