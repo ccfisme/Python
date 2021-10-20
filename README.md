@@ -55,7 +55,7 @@ sorted(iterable, cmp=None, key=None, reverse=False)
 
 * reverse -- 排序规则，reverse = True 降序 ， reverse = False 升序（默认）。  
 
-要点与sort不一样，**这是一个有返回值的函数，返回重新排序的列表。 ** 
+要点与sort不一样，**这是一个有返回值的函数，返回重新排序的列表** 
  
 
 
