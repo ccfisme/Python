@@ -14,7 +14,7 @@
 
 ## `*`+列表
 
-首先，我找了几个源代码网址，并最终锁定了[这里]https://flaggo.github.io/python3-source-code-analysis/objects/list-object/  
+首先，我找了几个源代码网址，并最终锁定了[这里](https://flaggo.github.io/python3-source-code-analysis/objects/list-object/ ) 
 
 我看明白了，列表是类似于寄存器寻址的一个结构，即列表结构体中用于找元素的指针是双重指针，要先找到用来存下标的数组，然后再找到数组中存的地址所指向的元素，看图更清晰  
 
