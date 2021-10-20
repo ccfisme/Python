@@ -115,11 +115,6 @@ step值必须大于等于1（若setp为0，Python解释会显式的抛出ValueEr
 用法参考：https://blog.csdn.net/cadi2011/article/details/84538769</br>
 源代码参考：https://blog.csdn.net/xpresslink/article/details/77727507</br>
 
-## 用strip()方法实现首尾切相同序列
-
-不管是字符串的左侧还是右侧，碰到第一个非目的字符（即在strip内的字符串中的一个）就终止搜索。</br>
-
-参考源代码：https://blog.csdn.net/wlyfls/article/details/24645779
 
 
 
