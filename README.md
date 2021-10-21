@@ -55,7 +55,7 @@ print(a[1][2])
 
 
 
-那么，在列表中插入语句的顺序是什么呢？  
+[那么，在列表中插入语句的顺序是什么呢?](https://github.com/ccfisme/Python/blob/%E5%88%97%E8%A1%A8%E5%86%85%E5%B5%8C%E8%AF%AD%E5%8F%A5/README.md)
 
 
 
