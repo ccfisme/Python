@@ -33,7 +33,7 @@ Ghis is a pen.
 
 
 
-trans=[(chr(65+i),chr(65+25-i)) for i in range(26)]
+trans=[(chr(65+i),chr(65+25-i)) for i in range(26) # 表示存了26组[a，b]类型的列表]
 s=input()
 lst1=[trans[ord(c)-65][1] if "A"<=c<="Z" else c for c in s ]
 print("".join(lst1))
