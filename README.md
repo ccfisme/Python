@@ -81,7 +81,21 @@ print(' '.join(str(i) for i in b))
 
 调用其方法的字符串插入到每个给定元素之间，结果将作为新字符串返回。</br>
 
-示例：'..join（['ab'，'pq'，'rs']）->'ab.pq.rs'</br>
 
-这也就是说，“.”前面的东西是在序列中的每一项之后进行插入，这也就是上面示例中“，”变成“.”的缘故，这样，上面的代码也就好理解了，迭代列表c和d的每一个元素i，并且每次迭代取出时都要str（i）将其字符化，然后在其后面加上“.”前面的东西</br>
+这也就是说，join的括号内的迭代对象只能是字符，如果是直接迭代列表里的数，则会报错  
+
+```
+a  = [1, 2, 3, 4]
+print(''.join(i for i in a))
+
+# File "/Users/ccf/Desktop/Python/test.py", line 2, in <module>
+#     print(''.join(i for i in a))
+# TypeError: sequence item 0: expected str instance, int found
+```
+其操作原理是join只能把迭代出的所有字符合成一个新字符，即在加入join之前，就应该把参数变为str类型
+
+```
+join 是首先遍历 list 中的每一个字符串确定 maxchar 通过 maxchar 和所有字符串的长度和 sz 通过 PyUnicode(sz,maxchar) 创建新的字符串对象 然后通过每一个字符串的长度和偏移将 list 字符串快速拷贝到新串中
+```
+
 参考：https://blog.csdn.net/weixin_42716570/article/details/113571129
