@@ -10,10 +10,10 @@
 
 * 语法：  
 
-`str.join(sequence)`  
+`str.join(iterable)`  
   
   
-sequence -- 要连接的元素序列
+iterable -- 要连接的元素序列
 
 * 返回值  
 
